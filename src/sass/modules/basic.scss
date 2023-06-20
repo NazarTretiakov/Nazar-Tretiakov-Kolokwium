@@ -1,0 +1,7 @@
+@use 'config' as *;
+
+:root {
+  font-family: $font;
+  box-sizing: border-box;
+  font-size: 1em;
+}

@@ -1,0 +1,20 @@
+@use 'config' as *;
+
+.film-ul {
+  margin: 40px 0 0 6px;
+  list-style: none;
+
+  &-name {
+    margin: 0 0 10px 10px;
+    font-weight: bold;
+  }
+  &-poster {
+
+  }
+  &-date {
+    margin: 10px 0 10px 10px;
+  }
+  &-description {
+    margin: 10px 0 10px 10px;
+  }
+}

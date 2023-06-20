@@ -1,0 +1,38 @@
+@use 'config' as *;
+
+.header-ul {
+  display: flex;
+  list-style: none;
+  border-bottom: 1px solid black;
+  margin: 0 -8px 0 -8px;
+  justify-content: space-between;
+
+  &-logo {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-play-button {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-span {
+    margin: 13px 0 0 -73px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-register {
+    margin: 13px 10px 0 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-signup {
+  margin: 13px 10px 0 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

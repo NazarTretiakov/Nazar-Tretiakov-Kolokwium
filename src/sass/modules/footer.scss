@@ -1,0 +1,9 @@
+@use 'config' as *;
+
+.footer {
+  border-top: 1px solid black;
+  margin: 0 -8px 0 -8px;
+  &-p {
+  margin: 10px;
+  }
+}
